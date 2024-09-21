@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1 id="header-body">Mariam Ayaydah</h1>
+            <p>Frontend Developer | Deigner | Programmer</p>
+            <nav>
+                <ul class="un-list">
+                    <li><a href="#about-me-sec" id="a1">About Me</a></li>
+                    <li><a href="#skills-header" id="a2">Skills</a></li>
+                    <li><a href="#proj-header" id="a3">Projects</a></li>
+                    <li><a href="#cont" id="a4">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="back-to-top">
+        <span> <a href="#header-body">&#129145;</a></span>
+    </div>
+
+
+    <main>
+        <div class="about-me">
+            <h2 id="about-me-sec">About Me</h2>
+            <p>Hi my name is Mariam Ayaydah i'm 21 years old i'm studying Computer System Engineering in PPU i'm
+                frontend developer and i have some experience in backend with asp.net framework. </p>
+            <img src="./me.png" alt="my photo">
+        </div>
+
+        <div class="skills-main">
+            <h2 id="skills-header">Skills</h2>
+            <section class="my-skills">
+                <div class="skills">HTML5 & CSS3</div>
+                <div class="skills">JavaScript (ES6+)</div>
+                <div class="skills">React & Redux</div>
+                <div class="skills">Node.js & Express</div>
+                <div class="skills">SQL & NoSQL Databases</div>
+                <div class="skills">Git & GitHub</div>
+                <div class="skills">Responsive Design</div>
+
+            </section>
+        </div>
+
+
+        <div class="proj-main">
+            <h2 id="proj-header">Projects</h2>
+            <section class="proj-sec">
+                <div id="proj1">
+                    <h3>Task Management App</h3>
+                    <p>a task management application with features like task creation categrorization and deadline
+                        tracking
+                        .Built using React and Firebase.</p>
+                </div>
+                <div id="proj2">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal Portfolio website to showcase my work and skills.Built with HTML,CSS and Js.</p>
+                </div>
+                <div id="proj3">
+                    <h3>E-commerce Site</h3>
+                    <p>A fully functional e-commerce platform using React and Node.Js implements secure user
+                        authentication
+                        and stripe payment integration.</p>
+                </div>
+                <div id="proj4">
+                    <h3>Blog platform</h3>
+                    <p>A responsive blog platform where users can create,edit and publish posts.Built with
+                        Node.Js,Express
+                        and MongoDB.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="contact-main">
+            <h2 id="cont">Contact Me</h2>
+            <p>if you'd like to get in touch. please fill out the form below:</p>
+
+            <form>
+                <fieldset>
+                    <legend>Form</legend>
+                    <div class="name">
+                        <label for="na">Name:</label>
+                        <input type="text" name="name" placeholder="Enter your name" id="na">
+                    </div>
+
+                    <div class="email">
+                        <label for="em">Email:</label>
+                        <input type="email" name="email" placeholder="Enter your email" id="em">
+                    </div>
+
+                    <div class="text-area">
+                        <label for="area">Message:</label>
+                        <textarea name="message" id="area" placeholder="Enter your message"></textarea>
+                    </div>
+
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p>&copy; 2024 Mariam Ayaydah | <a href="https://github.com/mariamay2003" target="_blank">GitHub</a> |<a
+                    href="https://www.linkedin.com/in/mariam-ayaydah/" target="_blank">Linkedin</a>
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
